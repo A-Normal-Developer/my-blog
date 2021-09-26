@@ -1,0 +1,31 @@
+// 最多展示两行, 以省略号结尾
+.line-clamp-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+// 单行文本
+.line-clamp {
+  max-width: 375rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 卡片视图
+.card {
+  border: 2rpx solid #f9f9f9;
+  border-radius: 10rpx;
+  margin: 24rpx;
+  padding: 24rpx;
+  box-shadow: 4rpx 4rpx 10rpx 2rpx rgba(#8f8f8f, .1);
+}
+
+.avatar {
+  width: 64rpx;
+  height: 64rpx;
+  border: 4rpx solid #e5e5e5;
+  border-radius: 50%;
+}
